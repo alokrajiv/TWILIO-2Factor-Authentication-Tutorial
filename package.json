@@ -1,0 +1,42 @@
+{
+  "name": "twilio2fawebtest",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp set_env && babel-node --presets es2015 server/server.js",
+    "dev": "nodemon --exec 'npm start'",
+    "prod": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "alokrajiv",
+  "license": "ISC",
+  "dependencies": {
+    "authy-client": "^1.0.10",
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.17.1",
+    "connect-mongodb-session": "^1.3.0",
+    "cookie-parser": "^1.4.3",
+    "debug": "^2.6.6",
+    "express": "^4.15.2",
+    "express-mongo-sanitize": "^1.3.2",
+    "express-session": "^1.15.2",
+    "mongoose": "^4.9.8",
+    "morgan": "^1.8.1",
+    "serve-favicon": "^2.4.2"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-env": "^0.4.0",
+    "gulp-exec": "^2.1.3",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-uglify": "^2.1.2",
+    "pm2": "^2.4.6"
+  }
+}
