@@ -1,16 +1,17 @@
 # Twilio 2Factor Auth Example
 
-Node.js Web-APP example for registration and login. Strong password hashing with the help of BCRYPT as well as 2 Factor Authentication using OneTouch or SoftToken of Twilio Authy, which falls back to SMS if the Authy App is not present.
+Node.js example for registration and login. Strong password hashing with the help of BCRYPT as well as 2 Factor Authentication using OneTouch or SoftToken of Twilio Authy, which falls back to SMS if the Authy App is not present.
 Front-end is a simple design using bootstrap and bootstrap validator for form field validations.
 
-To compile, build and run the server on your own machine or server:
+##### To compile, build and run the server on your own machine or server:
 
-Prerequisites:
+###### Prerequisites:
 
 * MongoDB server is installed and the daemon/service is running on standard port.
 * Build essentials for make. (Ex. in ubuntu run: `sudo apt-get install build-essential`)
 
-Go to the desired folder on your system. Then on the console type:
+###### Go to the desired folder on your system. Then on the console type:
+&nbsp;
 
     git clone https://github.com/alokrajiv/twilio_2fa_web_test.git
     cd twilio_2fa_web_test/
@@ -20,7 +21,7 @@ Go to the desired folder on your system. Then on the console type:
 
 Now edit `.env.json` file. (Ex: `vi .env.json`).
 
-Take care to add your  Production Key from the Twilio Authy Console. You also can change the port the server will run. The default is 3001.
+Take care to **add your  Production Key from the Twilio Authy Console**. You also can change the port the server will run. The default is 3001.
 
 Now simply run on the console:
 
@@ -32,4 +33,4 @@ Once gulp finishes the tasks, it will start the nodemon server and in your conso
 
     SERVER Express server listening on port 3001 +0ms
 
-In your browser go to `http://localhost:3001` or whichever is the port you configured the `.env.json` file. You will be able to start using the web-app.
+In your browser go to `http://localhost:3001` or whichever is the port you configured in the `.env.json` file. You will be able to start using the web-app.
