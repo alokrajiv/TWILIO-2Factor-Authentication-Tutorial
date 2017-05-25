@@ -13,7 +13,7 @@ Front-end is a simple design using bootstrap and bootstrap validator for form fi
 ###### Go to the desired folder on your system. Then on the console type:
 &nbsp;
 
-    git clone https://github.com/alokrajiv/twilio_2fa_web_test.git
+    git clone https://github.com/alokrajiv/TWILIO-2Factor-Authentication-Tutorial.git
     cd twilio_2fa_web_test/
     npm install gulp-cli -g
     npm install
