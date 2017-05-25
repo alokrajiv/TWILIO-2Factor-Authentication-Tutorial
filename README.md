@@ -11,7 +11,6 @@ Front-end is a simple design using bootstrap and bootstrap validator for form fi
 * Build essentials for make. (Ex. in ubuntu run: `sudo apt-get install build-essential`)
 
 ###### Go to the desired folder on your system. Then on the console type:
-&nbsp;
 
     git clone https://github.com/alokrajiv/TWILIO-2Factor-Authentication-Tutorial.git
     cd twilio_2fa_web_test/
